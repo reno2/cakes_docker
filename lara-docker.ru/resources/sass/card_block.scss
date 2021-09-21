@@ -1,0 +1,32 @@
+.card-block{
+    display: flex;
+    flex-direction: column;
+}
+.card-block__bottom{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid $gray;
+    margin-top: 24px;
+    padding-top: 16px;
+}
+
+h3{
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.ui-card{
+  padding: 24px;
+  box-sizing: content-box;
+  background: #FFFFFF;
+  box-shadow: 0 40px 60px 0 rgb(37 59 112 / 10%);
+  border-radius: 9px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.ui-card_no-radius{
+  border-radius: 0px;
+}

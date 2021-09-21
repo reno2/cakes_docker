@@ -1,0 +1,82 @@
+version: "3.5"
+
+services:
+  nginx:
+    container_name: nginx
+    build:
+      context: .
+      dockerfile: docker/Nginx.dockerfile
+    ports:
+      - 80:8080
+    volumes:
+      - ./lara-docker.ru:/var/www/lara-docker.ru
+    networks:
+      - app-network
+    restart: always
+    depends_on:
+      - node
+      - fpm
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+    networks:
+      - app-network
+
+  fpm:
+    container_name: fpm
+    build:
+      context: .
+      dockerfile: docker/Fpm.dockerfile
+    volumes:
+      - ./lara-docker.ru:/var/www/lara-docker.ru
+    networks:
+      - app-network
+
+  mysql:
+    container_name: mysql
+    image: mysql:latest
+    ports:
+      - 33061:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=laravel
+    volumes:
+      - ./docker/db:/var/lib/mysql
+    networks:
+      - app-network
+
+  redis:
+    image: redis:alpine
+    container_name: app_redis
+    ports:
+      - "6379:6379"
+    networks:
+      - app-network
+
+  node:
+    image: node:10-alpine
+    ports:
+      - "6001:6001"
+
+    container_name: node
+    working_dir: /var/www/lara-docker.ru
+    volumes:
+      - ./lara-docker.ru:/var/www/lara-docker.ru
+      - ./docker/init-scripts/:/var/www/lara-docker.ru/init-scripts/
+    entrypoint:
+      - /var/www/lara-docker.ru/init-scripts/node_start.sh
+    environment:
+      - "REDIS_PORT=6379"
+      - "REDIS_HOST=redis"
+    depends_on:
+      - redis
+      - fpm
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

@@ -1,0 +1,109 @@
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/regular.scss';
+@import "_variables";
+@import './forms_img';
+@import './comments';
+@import './ads_front';
+@import './ads_detail';
+@import './ad_author';
+@import './info-icon-block';
+@import './ask_question';
+@import './modal';
+@import './forms';
+@import './features_block';
+@import './tags';
+@import './card_block';
+@import './slider';
+@import './profile';
+@import './advert__line';
+@import './buttons';
+@import './notification';
+@import './preloader';
+@import './rooms';
+@import './animations';
+@import './tabs';
+
+
+// Form tags
+.select2 {
+    display: block;
+    width: 100% !important;
+    .select2-selection__choice{
+        background-color: #25eba2 !important;
+        color:#fff;
+        span{
+            color:#fff !important;
+        }
+    }
+}
+
+
+//Product filters
+.tab-content{
+    .tab-pane{
+        &.active{
+            background: #f8fafc;
+            border-left: 1px solid #dee2e6;
+            border-bottom: 1px solid #dee2e6;
+            border-right: 1px solid #dee2e6;
+            padding: 16px 0 0 16px;
+        }
+    }
+}
+.filters-group__content {
+    .filters-group__item {
+        .filters-group__label{
+            margin-bottom: 0;
+            margin-left: 8px;
+        }
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+//block
+.block-title{
+    margin-bottom: 24px;
+    .block-title__main{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .block-title__sub{
+        color: #b5b5c3;
+    }
+    .block-title__bb{
+        border-bottom: 1px solid #eee;
+        margin-top: 16px;
+    }
+
+}
+
+
+.info-badge{
+    border-radius: 5px;
+    padding: 7px 10px;
+    font-weight: 600;
+    font-size: 11px;
+    transition:all .15s ease;
+    &.blue{
+        color: #3699ff;
+        background-color: #e1f0ff;
+        &:hover{
+            color: #fff;
+            background-color: #3699ff;
+        }
+    }
+}
+
+.info-small{
+    background: #f00;
+    color: #ffffff;
+    border-radius: 100px;
+    width: 15px;
+    font-size: 9px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+}

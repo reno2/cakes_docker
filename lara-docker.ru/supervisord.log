@@ -1,0 +1,387 @@
+2021-09-18 23:07:29,467 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-18 23:07:29,476 INFO supervisord started with pid 1
+2021-09-18 23:07:30,478 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:07:30,480 INFO spawned: 'laravel-worker_00' with pid 7
+2021-09-18 23:07:30,482 INFO spawned: 'php-fpm' with pid 8
+2021-09-18 23:07:31,604 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:07:31,604 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-18 23:07:31,605 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-18 23:07:33,607 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:07:36,611 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:07:36,612 INFO gave up: echo-server entered FATAL state, too many start retries too quickly
+2021-09-18 23:13:36,882 INFO reaped unknown pid 43 (exit status 0)
+2021-09-18 23:20:36,662 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-18 23:20:36,669 INFO supervisord started with pid 1
+2021-09-18 23:20:37,671 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:20:37,672 INFO spawned: 'laravel-worker_00' with pid 8
+2021-09-18 23:20:37,674 INFO spawned: 'php-fpm' with pid 9
+2021-09-18 23:20:38,752 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:20:38,753 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-18 23:20:38,753 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-18 23:20:40,755 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:20:43,761 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:20:43,761 INFO gave up: echo-server entered FATAL state, too many start retries too quickly
+2021-09-18 23:22:54,227 WARN received SIGQUIT indicating exit request
+2021-09-18 23:22:54,230 INFO waiting for laravel-worker_00, php-fpm to die
+2021-09-18 23:22:54,252 INFO stopped: php-fpm (exit status 0)
+2021-09-18 23:22:54,263 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2021-09-18 23:24:44,343 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-18 23:24:44,348 INFO supervisord started with pid 1
+2021-09-18 23:24:45,349 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:24:45,351 INFO spawned: 'laravel-worker_00' with pid 7
+2021-09-18 23:24:45,353 INFO spawned: 'php-fpm' with pid 8
+2021-09-18 23:24:46,429 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:24:46,430 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-18 23:24:46,431 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-18 23:24:48,433 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:24:51,437 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:24:51,438 INFO gave up: echo-server entered FATAL state, too many start retries too quickly
+2021-09-18 23:30:03,564 WARN received SIGQUIT indicating exit request
+2021-09-18 23:30:03,566 INFO waiting for laravel-worker_00, php-fpm to die
+2021-09-18 23:30:03,571 INFO stopped: php-fpm (exit status 0)
+2021-09-18 23:30:03,573 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2021-09-18 23:30:43,681 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-18 23:30:43,687 INFO supervisord started with pid 1
+2021-09-18 23:30:44,689 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:30:44,690 INFO spawned: 'laravel-worker_00' with pid 8
+2021-09-18 23:30:44,692 INFO spawned: 'php-fpm' with pid 9
+2021-09-18 23:30:45,789 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:30:45,790 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-18 23:30:45,806 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-18 23:30:47,810 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:30:50,814 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:30:50,815 INFO gave up: echo-server entered FATAL state, too many start retries too quickly
+2021-09-18 23:32:18,911 WARN received SIGQUIT indicating exit request
+2021-09-18 23:32:18,914 INFO waiting for laravel-worker_00, php-fpm to die
+2021-09-18 23:32:18,919 INFO stopped: php-fpm (exit status 0)
+2021-09-18 23:32:18,928 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2021-09-18 23:32:33,122 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-18 23:32:33,125 INFO supervisord started with pid 1
+2021-09-18 23:32:34,127 INFO spawnerr: can't find command '/usr/bin/laravel-echo-server'
+2021-09-18 23:32:34,129 INFO spawned: 'laravel-worker_00' with pid 8
+2021-09-18 23:32:34,131 INFO spawned: 'php-fpm' with pid 9
+2021-09-18 23:32:35,225 INFO spawnerr: can't find command '/usr/bin/laravel-echo-server'
+2021-09-18 23:32:35,226 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-18 23:32:35,226 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-18 23:32:37,229 INFO spawnerr: can't find command '/usr/bin/laravel-echo-server'
+2021-09-18 23:32:40,233 INFO spawnerr: can't find command '/usr/bin/laravel-echo-server'
+2021-09-18 23:32:40,234 INFO gave up: echo-server entered FATAL state, too many start retries too quickly
+2021-09-18 23:39:29,667 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-18 23:39:29,687 INFO supervisord started with pid 1
+2021-09-18 23:39:30,691 INFO spawnerr: can't find command '/usr/bin/laravel-echo-server'
+2021-09-18 23:39:30,693 INFO spawned: 'laravel-worker_00' with pid 7
+2021-09-18 23:39:30,695 INFO spawned: 'php-fpm' with pid 8
+2021-09-18 23:39:31,839 INFO spawnerr: can't find command '/usr/bin/laravel-echo-server'
+2021-09-18 23:39:31,839 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-18 23:39:31,839 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-18 23:39:33,842 INFO spawnerr: can't find command '/usr/bin/laravel-echo-server'
+2021-09-18 23:39:36,845 INFO spawnerr: can't find command '/usr/bin/laravel-echo-server'
+2021-09-18 23:39:36,846 INFO gave up: echo-server entered FATAL state, too many start retries too quickly
+2021-09-18 23:41:23,389 WARN received SIGQUIT indicating exit request
+2021-09-18 23:41:23,389 INFO waiting for laravel-worker_00, php-fpm to die
+2021-09-18 23:41:23,392 INFO stopped: php-fpm (exit status 0)
+2021-09-18 23:41:23,394 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2021-09-18 23:41:45,496 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-18 23:41:45,503 INFO supervisord started with pid 1
+2021-09-18 23:41:46,504 INFO spawnerr: can't find command '/usr/bin/laravel-echo-server'
+2021-09-18 23:41:46,505 INFO spawned: 'laravel-worker_00' with pid 8
+2021-09-18 23:41:46,507 INFO spawned: 'php-fpm' with pid 9
+2021-09-18 23:41:47,604 INFO spawnerr: can't find command '/usr/bin/laravel-echo-server'
+2021-09-18 23:41:47,605 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-18 23:41:47,607 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-18 23:41:49,611 INFO spawnerr: can't find command '/usr/bin/laravel-echo-server'
+2021-09-18 23:41:52,615 INFO spawnerr: can't find command '/usr/bin/laravel-echo-server'
+2021-09-18 23:41:52,616 INFO gave up: echo-server entered FATAL state, too many start retries too quickly
+2021-09-18 23:42:35,712 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-18 23:42:35,717 INFO supervisord started with pid 1
+2021-09-18 23:42:36,719 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:42:36,720 INFO spawned: 'laravel-worker_00' with pid 7
+2021-09-18 23:42:36,723 INFO spawned: 'php-fpm' with pid 8
+2021-09-18 23:42:37,842 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:42:37,843 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-18 23:42:37,843 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-18 23:42:39,845 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:42:42,849 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:42:42,850 INFO gave up: echo-server entered FATAL state, too many start retries too quickly
+2021-09-18 23:54:59,961 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-18 23:54:59,973 INFO supervisord started with pid 1
+2021-09-18 23:55:00,987 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:55:00,989 INFO spawned: 'laravel-worker_00' with pid 8
+2021-09-18 23:55:00,991 INFO spawned: 'php-fpm' with pid 9
+2021-09-18 23:55:02,118 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:55:02,118 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-18 23:55:02,118 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-18 23:55:04,121 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:55:07,124 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:55:07,125 INFO gave up: echo-server entered FATAL state, too many start retries too quickly
+2021-09-18 23:58:13,632 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-18 23:58:13,638 INFO supervisord started with pid 1
+2021-09-18 23:58:14,640 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:58:14,642 INFO spawned: 'laravel-worker_00' with pid 7
+2021-09-18 23:58:14,648 INFO spawned: 'php-fpm' with pid 8
+2021-09-18 23:58:15,756 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:58:15,756 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-18 23:58:15,757 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-18 23:58:17,760 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:58:20,764 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-18 23:58:20,764 INFO gave up: echo-server entered FATAL state, too many start retries too quickly
+2021-09-19 00:14:02,773 WARN received SIGQUIT indicating exit request
+2021-09-19 00:14:02,773 INFO waiting for laravel-worker_00, php-fpm to die
+2021-09-19 00:14:02,782 INFO stopped: php-fpm (exit status 0)
+2021-09-19 00:14:02,783 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2021-09-19 00:14:53,324 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 00:14:53,331 INFO supervisord started with pid 1
+2021-09-19 00:14:54,333 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-19 00:14:54,336 INFO spawned: 'laravel-worker_00' with pid 6
+2021-09-19 00:14:54,342 INFO spawned: 'php-fpm' with pid 7
+2021-09-19 00:14:55,423 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-19 00:14:55,423 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 00:14:55,424 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 00:14:57,426 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-19 00:15:00,430 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-19 00:15:00,431 INFO gave up: echo-server entered FATAL state, too many start retries too quickly
+2021-09-19 00:16:36,555 WARN received SIGQUIT indicating exit request
+2021-09-19 00:16:36,569 INFO waiting for laravel-worker_00, php-fpm to die
+2021-09-19 00:16:36,572 INFO stopped: php-fpm (exit status 0)
+2021-09-19 00:16:36,574 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2021-09-19 00:17:02,151 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 00:17:02,156 INFO supervisord started with pid 1
+2021-09-19 00:17:03,158 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-19 00:17:03,160 INFO spawned: 'laravel-worker_00' with pid 11
+2021-09-19 00:17:03,162 INFO spawned: 'php-fpm' with pid 12
+2021-09-19 00:17:04,312 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-19 00:17:04,313 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 00:17:04,313 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 00:17:06,315 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-19 00:17:09,319 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-19 00:17:09,319 INFO gave up: echo-server entered FATAL state, too many start retries too quickly
+2021-09-19 00:22:53,880 WARN received SIGQUIT indicating exit request
+2021-09-19 00:22:53,881 INFO waiting for laravel-worker_00, php-fpm to die
+2021-09-19 00:22:53,884 INFO stopped: php-fpm (exit status 0)
+2021-09-19 00:22:53,886 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2021-09-19 00:23:39,365 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 00:23:39,369 INFO supervisord started with pid 1
+2021-09-19 00:23:40,371 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-19 00:23:40,374 INFO spawned: 'laravel-worker_00' with pid 8
+2021-09-19 00:23:40,386 INFO spawned: 'php-fpm' with pid 9
+2021-09-19 00:23:41,498 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-19 00:23:41,499 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 00:23:41,499 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 00:23:43,502 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-19 00:23:46,505 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-19 00:23:46,505 INFO gave up: echo-server entered FATAL state, too many start retries too quickly
+2021-09-19 08:47:33,835 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 08:47:33,846 INFO supervisord started with pid 1
+2021-09-19 08:47:34,857 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-19 08:47:34,859 INFO spawned: 'laravel-worker_00' with pid 7
+2021-09-19 08:47:34,861 INFO spawned: 'php-fpm' with pid 8
+2021-09-19 08:47:36,307 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-19 08:47:36,307 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 08:47:36,309 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 08:47:38,311 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-19 08:47:41,315 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-19 08:47:41,316 INFO gave up: echo-server entered FATAL state, too many start retries too quickly
+2021-09-19 08:51:59,288 WARN received SIGQUIT indicating exit request
+2021-09-19 08:51:59,288 INFO waiting for laravel-worker_00, php-fpm to die
+2021-09-19 08:51:59,311 INFO stopped: php-fpm (exit status 0)
+2021-09-19 08:51:59,315 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2021-09-19 09:00:01,196 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 09:00:01,202 INFO supervisord started with pid 1
+2021-09-19 09:00:02,204 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-19 09:00:02,206 INFO spawned: 'laravel-worker_00' with pid 7
+2021-09-19 09:00:02,211 INFO spawned: 'php-fpm' with pid 8
+2021-09-19 09:00:03,351 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-19 09:00:03,352 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 09:00:03,353 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 09:00:05,356 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-19 09:00:08,360 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-19 09:00:08,360 INFO gave up: echo-server entered FATAL state, too many start retries too quickly
+2021-09-19 09:11:23,307 WARN received SIGQUIT indicating exit request
+2021-09-19 09:11:23,309 INFO waiting for laravel-worker_00, php-fpm to die
+2021-09-19 09:11:23,321 INFO stopped: php-fpm (exit status 0)
+2021-09-19 09:11:23,325 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2021-09-19 09:12:58,976 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 09:12:58,982 INFO supervisord started with pid 1
+2021-09-19 09:12:59,984 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-19 09:12:59,986 INFO spawned: 'laravel-worker_00' with pid 8
+2021-09-19 09:12:59,988 INFO spawned: 'php-fpm' with pid 9
+2021-09-19 09:13:01,108 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-19 09:13:01,108 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 09:13:01,108 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 09:13:03,111 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-19 09:13:06,115 INFO spawnerr: can't find command 'laravel-echo-server'
+2021-09-19 09:13:06,115 INFO gave up: echo-server entered FATAL state, too many start retries too quickly
+2021-09-19 09:58:04,922 WARN received SIGQUIT indicating exit request
+2021-09-19 09:58:04,923 INFO waiting for laravel-worker_00, php-fpm to die
+2021-09-19 09:58:04,926 INFO stopped: php-fpm (exit status 0)
+2021-09-19 09:58:05,929 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2021-09-19 09:58:09,772 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 09:58:09,779 INFO supervisord started with pid 1
+2021-09-19 09:58:10,782 INFO spawned: 'laravel-worker_00' with pid 8
+2021-09-19 09:58:10,786 INFO spawned: 'php-fpm' with pid 9
+2021-09-19 09:58:11,918 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 09:58:11,918 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 10:13:28,377 WARN received SIGQUIT indicating exit request
+2021-09-19 10:13:28,377 INFO waiting for laravel-worker_00, php-fpm to die
+2021-09-19 10:13:28,380 INFO stopped: php-fpm (exit status 0)
+2021-09-19 10:13:29,387 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2021-09-19 10:14:24,947 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 10:14:24,950 INFO supervisord started with pid 1
+2021-09-19 10:14:25,953 INFO spawned: 'laravel-worker_00' with pid 6
+2021-09-19 10:14:25,955 INFO spawned: 'php-fpm' with pid 7
+2021-09-19 10:14:27,043 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 10:14:27,044 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 12:39:08,013 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 12:39:08,017 INFO supervisord started with pid 1
+2021-09-19 12:39:09,019 INFO spawned: 'laravel-worker_00' with pid 7
+2021-09-19 12:39:09,024 INFO spawned: 'php-fpm' with pid 8
+2021-09-19 12:39:10,126 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 12:39:10,126 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 12:52:18,519 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 12:52:18,530 INFO supervisord started with pid 1
+2021-09-19 12:52:19,532 INFO spawned: 'laravel-worker_00' with pid 7
+2021-09-19 12:52:19,539 INFO spawned: 'php-fpm' with pid 8
+2021-09-19 12:52:20,609 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 12:52:20,610 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 12:56:33,939 WARN received SIGQUIT indicating exit request
+2021-09-19 12:56:33,945 INFO waiting for laravel-worker_00, php-fpm to die
+2021-09-19 12:56:33,953 INFO stopped: php-fpm (exit status 0)
+2021-09-19 12:56:33,955 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2021-09-19 13:24:54,194 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 13:24:54,197 INFO supervisord started with pid 1
+2021-09-19 13:24:55,199 INFO spawned: 'laravel-worker_00' with pid 9
+2021-09-19 13:24:55,201 INFO spawned: 'php-fpm' with pid 10
+2021-09-19 13:24:56,310 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 13:24:56,311 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 13:30:00,931 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 13:30:00,938 INFO supervisord started with pid 1
+2021-09-19 13:30:01,950 INFO spawned: 'laravel-worker_00' with pid 7
+2021-09-19 13:30:01,952 INFO spawned: 'php-fpm' with pid 8
+2021-09-19 13:30:03,010 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 13:30:03,011 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 14:29:43,578 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 14:29:43,582 INFO supervisord started with pid 1
+2021-09-19 14:29:44,585 INFO spawned: 'laravel-worker_00' with pid 10
+2021-09-19 14:29:44,586 INFO spawned: 'php-fpm' with pid 11
+2021-09-19 14:29:45,680 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 14:29:45,681 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 14:31:25,630 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 14:31:25,634 INFO supervisord started with pid 1
+2021-09-19 14:31:26,635 INFO spawned: 'laravel-worker_00' with pid 8
+2021-09-19 14:31:26,637 INFO spawned: 'php-fpm' with pid 9
+2021-09-19 14:31:27,731 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 14:31:27,731 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 14:32:03,488 WARN received SIGQUIT indicating exit request
+2021-09-19 14:32:03,488 INFO waiting for laravel-worker_00, php-fpm to die
+2021-09-19 14:32:03,492 INFO stopped: php-fpm (exit status 0)
+2021-09-19 14:32:03,493 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2021-09-19 14:32:15,344 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 14:32:15,347 INFO supervisord started with pid 1
+2021-09-19 14:32:16,350 INFO spawned: 'laravel-worker_00' with pid 8
+2021-09-19 14:32:16,352 INFO spawned: 'php-fpm' with pid 9
+2021-09-19 14:32:17,451 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 14:32:17,452 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 14:33:05,837 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 14:33:05,840 INFO supervisord started with pid 1
+2021-09-19 14:33:06,843 INFO spawned: 'laravel-worker_00' with pid 7
+2021-09-19 14:33:06,845 INFO spawned: 'php-fpm' with pid 8
+2021-09-19 14:33:07,925 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 14:33:07,925 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 14:34:44,709 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 14:34:44,713 INFO supervisord started with pid 1
+2021-09-19 14:34:45,715 INFO spawned: 'laravel-worker_00' with pid 8
+2021-09-19 14:34:45,717 INFO spawned: 'php-fpm' with pid 9
+2021-09-19 14:34:46,787 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 14:34:46,787 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 14:37:42,222 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 14:37:42,231 INFO supervisord started with pid 1
+2021-09-19 14:37:43,234 INFO spawned: 'laravel-worker_00' with pid 7
+2021-09-19 14:37:43,236 INFO spawned: 'php-fpm' with pid 8
+2021-09-19 14:37:44,309 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 14:37:44,309 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 16:03:53,812 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 16:03:53,845 INFO supervisord started with pid 1
+2021-09-19 16:03:54,847 INFO spawned: 'laravel-worker_00' with pid 8
+2021-09-19 16:03:54,849 INFO spawned: 'php-fpm' with pid 9
+2021-09-19 16:03:55,964 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 16:03:55,964 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 16:34:27,030 WARN received SIGQUIT indicating exit request
+2021-09-19 16:34:27,032 INFO waiting for laravel-worker_00, php-fpm to die
+2021-09-19 16:34:27,052 INFO stopped: php-fpm (exit status 0)
+2021-09-19 16:34:27,055 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2021-09-19 16:35:30,124 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 16:35:30,129 INFO supervisord started with pid 1
+2021-09-19 16:35:31,132 INFO spawned: 'laravel-worker_00' with pid 10
+2021-09-19 16:35:31,134 INFO spawned: 'php-fpm' with pid 11
+2021-09-19 16:35:32,214 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 16:35:32,215 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 16:41:08,180 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 16:41:08,184 INFO supervisord started with pid 1
+2021-09-19 16:41:09,186 INFO spawned: 'laravel-worker_00' with pid 7
+2021-09-19 16:41:09,198 INFO spawned: 'php-fpm' with pid 8
+2021-09-19 16:41:10,302 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 16:41:10,303 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 16:42:33,880 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 16:42:33,885 INFO supervisord started with pid 1
+2021-09-19 16:42:34,887 INFO spawned: 'laravel-worker_00' with pid 7
+2021-09-19 16:42:34,890 INFO spawned: 'php-fpm' with pid 8
+2021-09-19 16:42:35,995 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 16:42:35,996 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 16:54:01,355 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 16:54:01,371 INFO supervisord started with pid 1
+2021-09-19 16:54:02,374 INFO spawned: 'laravel-worker_00' with pid 6
+2021-09-19 16:54:02,379 INFO spawned: 'php-fpm' with pid 7
+2021-09-19 16:54:03,433 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 16:54:03,434 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 17:02:27,202 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 17:02:27,205 INFO supervisord started with pid 1
+2021-09-19 17:02:28,208 INFO spawned: 'laravel-worker_00' with pid 8
+2021-09-19 17:02:28,210 INFO spawned: 'php-fpm' with pid 9
+2021-09-19 17:02:29,321 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 17:02:29,322 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 17:19:29,331 WARN received SIGQUIT indicating exit request
+2021-09-19 17:19:29,332 INFO waiting for laravel-worker_00, php-fpm to die
+2021-09-19 17:19:29,336 INFO stopped: php-fpm (exit status 0)
+2021-09-19 17:19:29,338 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2021-09-19 17:20:58,934 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-19 17:20:58,938 INFO supervisord started with pid 1
+2021-09-19 17:20:59,940 INFO spawned: 'laravel-worker_00' with pid 8
+2021-09-19 17:20:59,946 INFO spawned: 'php-fpm' with pid 9
+2021-09-19 17:21:01,062 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-19 17:21:01,064 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-21 06:41:09,654 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-21 06:41:09,660 INFO supervisord started with pid 1
+2021-09-21 06:41:10,665 INFO spawned: 'laravel-worker_00' with pid 7
+2021-09-21 06:41:10,667 INFO spawned: 'php-fpm' with pid 8
+2021-09-21 06:41:12,140 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-21 06:41:12,141 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-21 06:44:29,785 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-21 06:44:29,789 INFO supervisord started with pid 1
+2021-09-21 06:44:30,792 INFO spawned: 'laravel-worker_00' with pid 8
+2021-09-21 06:44:30,808 INFO spawned: 'php-fpm' with pid 9
+2021-09-21 06:44:31,886 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-21 06:44:31,887 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-21 06:47:54,210 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-21 06:47:54,213 INFO supervisord started with pid 1
+2021-09-21 06:47:55,215 INFO spawned: 'laravel-worker_00' with pid 7
+2021-09-21 06:47:55,217 INFO spawned: 'php-fpm' with pid 8
+2021-09-21 06:47:56,321 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-21 06:47:56,322 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-21 06:49:00,806 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-21 06:49:00,811 INFO supervisord started with pid 1
+2021-09-21 06:49:01,813 INFO spawned: 'laravel-worker_00' with pid 8
+2021-09-21 06:49:01,825 INFO spawned: 'php-fpm' with pid 9
+2021-09-21 06:49:02,888 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-21 06:49:02,888 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-21 06:51:52,191 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-21 06:51:52,195 INFO supervisord started with pid 1
+2021-09-21 06:51:53,197 INFO spawned: 'laravel-worker_00' with pid 7
+2021-09-21 06:51:53,205 INFO spawned: 'php-fpm' with pid 8
+2021-09-21 06:51:54,282 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-21 06:51:54,282 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-21 06:56:16,271 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-21 06:56:16,275 INFO supervisord started with pid 1
+2021-09-21 06:56:17,277 INFO spawned: 'laravel-worker_00' with pid 7
+2021-09-21 06:56:17,279 INFO spawned: 'php-fpm' with pid 8
+2021-09-21 06:56:18,405 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-21 06:56:18,406 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

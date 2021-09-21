@@ -1,0 +1,162 @@
+.profile-adverts__lines {
+  margin-top: 24px;
+}
+
+//===============================================
+//=========================END MARKUP============
+//===============================================
+.profile-adverts__markup{
+  @include block;
+  display: flex;
+  margin-bottom: 24px;
+  padding: 16px;
+}
+.profile-adverts__markup div:not(:first-child){
+  //margin-left: 24px;
+}
+.profile-markup__img{
+  width: 132px;
+}
+.profile-markup__title{
+  width: 186px;
+}
+.profile-markup__created,
+.profile-markup__updated{
+  width: 100px;
+}
+.profile-markup__favorites,
+.profile-markup__actions{
+  flex-grow: 1;
+  text-align: right;
+}
+.profile-markup__views {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+.profile-adverts__favorites{
+
+}
+.profile-adverts__favorites,
+.profile-adverts__actions{
+  text-align: right;
+}
+
+.profile-adverts__item{
+  font-size: 12px;
+}
+
+
+.profile-markup__actions {
+  display: flex;
+  justify-content: flex-end;
+}
+//===============================================
+//=========================END MARKUP============
+//===============================================
+@media (max-width: 767px) {
+  .profile-markup__created,
+  .profile-markup__updated,
+  .profile-markup__favorites,
+  .profile-markup__views{
+    display: none;
+  }
+  .profile-markup__title{
+    flex-grow: 1;
+  }
+}
+
+
+
+.profile-adverts__block {
+  display: none;
+}
+
+.profile-adverts__block.active {
+  display: block;
+}
+
+
+
+
+.advert-line__figure {
+  width: 100px;
+  margin-right: 16px;
+}
+.advert-line__img {
+  width: 100px;
+}
+.advert-line__main {
+  width: 210px;
+  padding-left: 24px;
+}
+.advert-line__category{
+  font-size: 12px;
+}
+.advert-line__views{
+  flex-grow: 1;
+  justify-content: center;
+  display: flex;
+}
+.advert-line__views__inner {
+  display: flex;
+  align-items: center;
+}
+.advert-line__watches{
+  font-weight: 500;
+  font-size: 14px;
+  margin-right: 4px;
+  height: fit-content;
+  color: #989898;
+}
+.advert-line__today {
+  font-weight: 600;
+  color: #3699ff;
+  font-size: 14px;
+}
+
+
+.advert-line__favorites{
+  flex-grow: 1;
+  justify-content: center;
+  display: flex;
+}
+.advert-line__title {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.advert-line__created,
+.advert-line__updated{
+  font-size: 12px;
+  margin: 0 16px;
+}
+
+
+.t-tooltip{
+
+}
+.profile-markup__actions {
+  position: relative;
+  text-align: right;
+}
+.profile-markup__actions .svg_menu{
+  fill: $gray2;
+  cursor: pointer;
+}
+.profile-markup__actions:hover .svg_menu{
+  fill: $green;
+}
+.profile-markup__actions a{
+  font-size: 12px;
+}
+.profile-markup__actions .btn{
+  padding: 0;
+  font-size: 12px;
+}
+
+.advert-line__choose {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+}
