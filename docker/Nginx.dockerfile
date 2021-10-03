@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM docker2021repos/nginx:latest
 
 ADD docker/conf/vhost.conf /etc/nginx/conf.d/default.conf
 
